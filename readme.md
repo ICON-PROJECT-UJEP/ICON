@@ -4,7 +4,7 @@
 
 ## PROJEKT ICON - EMG DATA ANALYSIS
 
-The coolest group on ICON project. 
+The coolest group on IKON project. 
 
 Project leader : <b>Jiří Fišer</b>
 
