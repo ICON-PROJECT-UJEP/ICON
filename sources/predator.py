@@ -19,18 +19,14 @@ def get_indexes(imin, imax, n):
     assert imax - imin + 1 > n, "Not enough points in interval"
     indexes = []
     dx = (imax - imin) / (n-1)
-    for i in range(n-1):
+    for i in range(n-1)
         indexes.append(round(i * dx - 0.5) + imin)
     indexes.append(imax-1)
     return indexes
 
 sources = [
         ("/home/fiser/IKON/ICON/mereni/26_02_2020_11_38/1hp.txt",
-         "/home/fiser/IKON/ICON/anotace/1hp.a.csv"),
-        ("/home/fiser/IKON/ICON/mereni/26_02_2020_11_38/1hp2.txt",
-         "/home/fiser/IKON/ICON/anotace/1hp2.a.csv"),
-        ("/home/fiser/IKON/ICON/mereni/26_02_2020_11_38/1hr.txt",
-         "/home/fiser/IKON/ICON/anotace/1hr.csv")
+         "/home/fiser/IKON/ICON/anotace/1hp.a.csv")
     ]
 
 fs = 250
